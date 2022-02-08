@@ -1,32 +1,31 @@
 <!doctype html>
-
-<html lang="en">
-<head>
-	<!--
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>A Basic HTML5 Template</title>
-  <meta name="description" content="A simple HTML5 Template for new projects.">
-  <meta name="author" content="SitePoint">
-
-  <meta property="og:title" content="A Basic HTML5 Template">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
-  <meta property="og:description" content="A simple HTML5 Template for new projects.">
-  <meta property="og:image" content="image.png">
-
-  <link rel="icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-
-  <!--<link rel="stylesheet" href="css/styles.css?v=1.0">-->
-</head>
-
-<body>
-  <!-- your content here... 
-  <script src="js/scripts.js"></script>
--->
-	<h1>test</h1>
-</body>
+<html lang="nb">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Velkommen til en menneskeskapt nettside</h1>
+        <div id="css-container">
+            Jeg har lagt en liten tekstsnutt i et &ltdiv&gt&lt\div&gt-par, som kan tydeliggj&oslash;re hvordan man kan utgjøre en stor forskjell ved bruk av CSS til å style siden i stedet for å bare la teksten v&aelig;re slik den er uten &aring; pr&oslash;ve å gi den litt "krydder".
+        </div>
+        <div>
+            En annen tekstsnutt kan da ha en annen styling enn det den andre har, og gir da et annet tekstlig uttrykk.
+            Man kan se at det er en tydelig forskjell mellom den som er stylet med 50&#37; av bredden og det som er stylet slik at det tar opp hele siden.
+        </div>
+        <div class="container">
+            <div>
+                Radien til en sirkel vi vil ha omkretsen utregnet for:<br>
+                <input type="text" id="radius">
+            </div>
+            <div>
+                Omkretsen til sirkelen er:<br>
+                <input type="text" id="answer" readonly>
+            </div>
+            <button onclick="findCircumference()">Regn ut</button>
+        </div>
+		<div>
+			For å vise frem at det er "luft" både over og under den biten hvor jeg har lagt opp for javascript legger vi til litt mer tekst.
+		</div>
+        <script src="javascript.js" type="text/javascript"></script>
+    </body>
 </html>

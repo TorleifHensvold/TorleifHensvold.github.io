@@ -1,0 +1,19 @@
+#css-container
+{
+    width: 50%
+}
+
+.container
+{
+    margin: 30px 5px; /* Dette sier ha 30 piksler oppe og nede på utsiden av boksen vår, og 5 piksler på sidene */
+    padding: 10px; /* Dette sier at vi skal ha 10 piksler avstand på innsiden av boksen */
+    border-style: double;
+    border-width: 10px;
+    border-color: darkgreen;
+}
+
+body
+{
+    background-color: aliceblue;
+    font-family: sans-serif
+}
