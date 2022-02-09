@@ -1,0 +1,43 @@
+h1
+{
+	font-family: "Brush Script MT", "Bookman Old Style";
+	color: black;
+	font-size: 60px;
+	text-align: center;
+	background-color: lightgray;
+	border-radius: 20px;
+}
+
+body
+{
+	background-color: dimgray;
+}
+
+#proficiencies
+{
+	column-width: 25%;
+	background-color: black;
+	margin: 20px;
+}
+
+#proficiencies th, td
+{
+	padding: 10px;
+	
+	width: 20%;	
+}
+
+#proficiencies tr
+{
+	background-color: gainsboro;
+}
+
+#proficiencies tr:hover
+{
+	background-color: aliceblue;
+}
+
+svg
+{
+	border: 1px solid black
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nb">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>La oss lage det litt mer fancy</h1>
+		<div class="textbox">
+			Som du ser har det blitt et helt annet uttrykk bare man har endret bakgrunnsfarge og fonten (tekst-stilen) på overskriften nok.
+		</div>
+		<!--	Tabell lages med <table>-taggen, og så definerer man rader med <tr>-taggen, og man kan legge til enkeltceller med <th>-tagg for det som
+				skal brukes som -->
+		<table id="proficiencies">
+			<tr>
+				<th></th>
+				<th>Grunnleggende</th>
+				<th>&rarr;</th>
+				<th>Avansert</th>
+			</tr>
+			<tr>
+				<th>HTML-side med tekst</th>
+				<td>Viser frem enkel tekst</td>
+				<td></td>
+				<td>Bruker HTML-tags til å lage lister, tabeller, og annet innhold</td>
+			</tr>
+			<tr>
+				<th>CSS-styling av siden</th>
+				<td>Kan endre bakgrunnsfarge og farge på tekst</td>
+				<td></td>
+				<td>Kan lage egne class og id, samt anvende disse etter riktig behov</td>
+			</tr>
+			<tr>
+				<th>Javascript</th>
+				<td>Kan lage en funksjon som regner ut noe enkelt og viser frem resultatet</td>
+				<td></td>
+				<td>Kan lage kode som gjør større forandringer på nettsiden (som å konstant endre farge på noe, eller gir forskjellig tekst ved trykking på knapper)</td>
+			</tr>
+			<tr>
+				<th>SVG-bilde</th>
+				<td>Kan legge inn et SVG-bilde på siden</td>
+				<td></td>
+				<td>Kan animere SVG-elementer uten JavaScript eller lage en komposisjon (egentlig et kunstverk) som består av minst 4 forskjellige ting (kan være firkanter eller blanding av forskjellige element) med to forskjellige farger som fyller formene</td>
+			</tr>
+			<tr>
+				<th>Kommentarer i koden</th>
+				<td>Kan legge inn kommentarer i koden</td>
+				<td></td>
+				<td>Kommentarene forklarer hva som skjer og hvorfor det er valgt slik</td>
+			</tr>
+		</table>
+		
+		<svg id="svg" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+			<g>
+				<title>Layer 1</title>
+				<circle id="ball" stroke-width="1" r="65" cy="204" cx="173" stroke="#000" fill="#fff"/>
+			</g>
+		</svg>
+		
+		<script src="javascript2.js"></script>
+    </body>
+</html>
